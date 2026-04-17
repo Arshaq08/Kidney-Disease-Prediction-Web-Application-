@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 
 const stats = [
-  { value: "98%", label: "Prediction Accuracy" },
+  { value: "97%", label: "Prediction Accuracy" },
   { value: "10K+", label: "Samples Analyzed" },
-  { value: "2", label: "ML Models" },
+  { value: "3", label: "ML Models Tested" },
   { value: "24", label: "Health Parameters" },
 ];
 
