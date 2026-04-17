@@ -5,15 +5,15 @@ const models = [
   {
     icon: TreePine,
     name: "Random Forest",
-    accuracy: "96.5%",
+    accuracy: "97%",
     description: "Ensemble learning model combining multiple decision trees for accurate and stable predictions with excellent generalization.",
     features: ["Handles missing data", "Feature importance ranking", "Low overfitting risk"],
   },
   {
     icon: Zap,
     name: "XGBoost",
-    accuracy: "98.2%",
-    description: "High-performance gradient boosting algorithm delivering state-of-the-art classification results on medical datasets.",
+    accuracy: "89%",
+    description: "Gradient boosting algorithm used for comparison; achieved lower accuracy than Random Forest on this dataset.",
     features: ["Regularized learning", "Parallel processing", "Cross-validation built-in"],
   },
 ];
